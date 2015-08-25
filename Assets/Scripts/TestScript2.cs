@@ -1,13 +1,23 @@
-﻿using UnityEngine;
-using System.Collections;
+﻿#define D
 
-public class TestScript2 : MonoBehaviour {
+using System.Diagnostics;
+using UnityEngine;
 
+
+public class TestScript2 : MonoBehaviour
+{
 	// Use this for initialization
-	void Start () {
-	  // test for git push...
+	void Start ()
+    {
+        debug();
 	}
-	
+
+    [Conditional("DEBUG")]
+    private void debug()
+    {
+        UnityEngine.Debug.Log("I'm debug information...");
+    }
+
 	// Update is called once per frame
 	void Update () {
 	  // test for git push.

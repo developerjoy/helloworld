@@ -1,18 +1,10 @@
 ﻿using UnityEngine;
-using System.Collections;
 
-public class TestScript : MonoBehaviour
+public class TestScript : Base
 {
 
-    private Vector3 val;
-
-	// Use this for initialization
-	void Start () {
-	  // just for test...
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		// just for test.
-	}
+    public override void DoSomething()
+    {
+        
+    }
 }
