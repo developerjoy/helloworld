@@ -4,4 +4,9 @@ public class Math
     {
         return v1 + v2;
     }
+
+    public T Subtract<T>(T left, T right)
+    {
+        return left - right;
+    }
 }
