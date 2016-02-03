@@ -19,4 +19,9 @@ public class GFile
     {
         
     }
+
+    private void compress()
+    {
+        
+    }
 }
