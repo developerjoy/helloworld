@@ -14,4 +14,9 @@ public class Math
     {
         return left / right;
     }
+
+    public T Multiply<T>(T left, T right)
+    {
+        return left * right;
+    }
 }
