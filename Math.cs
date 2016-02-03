@@ -9,4 +9,9 @@ public class Math
     {
         return left - right;
     }
+
+    public T Divide<T>(T left, T right)
+    {
+        return left / right;
+    }
 }
