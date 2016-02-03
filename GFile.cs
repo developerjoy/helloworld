@@ -15,5 +15,13 @@ public class GFile
 
     }
 
-    
+    private void encrypt()
+    {
+        
+    }
+
+    private void compress()
+    {
+        
+    }
 }
