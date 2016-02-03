@@ -15,5 +15,8 @@ public class GFile
 
     }
 
-    
+    private void encrypt()
+    {
+        
+    }
 }
